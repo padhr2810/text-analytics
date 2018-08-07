@@ -1,3 +1,9 @@
+"""
+Pre-processing an Excel file containing text data. In this instance, we want to replace text 
+(e.g. old_string with new_string) in an Excel file with multiple worksheets, and then save the data 
+as a new Excel file with identical worksheet names.
+"""
+
 import pandas as pd
 
 # Specify the changes you wish to make
