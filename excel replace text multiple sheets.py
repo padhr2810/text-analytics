@@ -30,8 +30,8 @@ writer = pd.ExcelWriter('new_from_df.xlsx')
 # Write to the new Excel file
 for sheet in xl.sheet_names:
     temp_df  = xl.parse(sheet, header=None)
-    temp_df.replace(change_dict, value = None, inplace = True)
-    temp_df.to_excel(writer,sheet)
+    temp_df.replace(change_dict, value = None, inplace = True, regex=True)
+    temp_df.to_excel(writer,sheet, index=None, header=None)
 
 # Save the new Excel file
 writer.save()
