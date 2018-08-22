@@ -40,8 +40,8 @@ def open_and_tokenize(counter, folder):
     print()
     print("File number: %s" %file_num)
     print("File name: %s" %file)
-	
-	
+
+
     f = open(file)
     print("Open file and display 'type' = {}".format(type(f)))
 
