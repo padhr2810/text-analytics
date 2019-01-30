@@ -1,4 +1,4 @@
-# text-analytics
+# inca-text-analytics
 
 Put all scripts & notebooks into project directory. <br>
 Run the sentiment1_MASTER.ipynb file. This will call all of the python scripts and ipython / jupyter notebooks that are needed for the analysis. <br>
